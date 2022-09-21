@@ -25,7 +25,7 @@ pole = np.zeros((161, 111))
 
 pole_hmotnosti = np.zeros((161, 111))
 
-f = open("Casticova_fyzika/mass_1.mas20.txt", "r")
+f = open("mass_1.mas20.txt", "r")
 lines = f.readlines()
 
 all_nuclids = []
